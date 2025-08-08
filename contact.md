@@ -6,8 +6,9 @@
 
 <TimeDisplay />
 
-# 拼车联系我们的客服
+---
 
+# 拼车联系我们的客服
 
 
 <div style="text-align: center; margin-top: 50px;">
@@ -26,3 +27,7 @@
     </div>
   </div>
 </div>
+
+客服邮箱：support@algae.fun 
+
+<p><a href="mailto:support@algae.fun">点我发送邮件</a></p>

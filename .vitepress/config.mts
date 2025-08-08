@@ -17,11 +17,16 @@ export default defineConfig({
         items: [
           { text: "claude code 拼车", link: "/claude-code-guide" },
           { text: "claude code 安装", link: "/claude-code-install" },
-          
+
           { text: "联系我们", link: "/contact" },
         ],
       },
     ],
+    footer: {
+      message: "Released under the MIT License.",
+      copyright: "Copyright © 2024-2026 Algae.fun ",
+    },
+    logo: '/logo.svg'
   },
   markdown: {
     image: {

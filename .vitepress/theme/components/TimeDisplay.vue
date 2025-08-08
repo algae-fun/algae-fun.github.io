@@ -23,7 +23,7 @@ const updateTime = () => {
     hour: '2-digit',
     minute: '2-digit',
     second: '2-digit',
-    hour12: false, // 确保使用24小时制
+    hour12: false,
   };
 
   // 格式化加拿大温哥华时间
@@ -54,8 +54,9 @@ onUnmounted(() => {
 <style scoped>
 .time-display {
   padding: 1rem;
-  border-left: 4px solid #3eaf7c;
-  background-color: #f3f4f6;
+  background-color: var(--vp-c-bg-soft);
+  border-left: 4px solid var(--vp-c-brand-1);
   border-radius: 4px;
+  color: var(--vp-c-text-1);
 }
 </style>
