@@ -2,7 +2,7 @@
 
 确保 Node.js 版本 ≥ 18.0
 
-## Ubuntu / Debian 用户
+## Ubuntu / Debian / WSL 用户
 
 ```sh
 # 安装 Node.js
@@ -63,7 +63,8 @@ claude --version
 ```
 
 # 3. 开始使用
-获取 Auth Token： ANTHROPIC**AUTH_TOKEN ：会单独发给你，类似格式： "cr**..."
+
+获取 Auth Token： ANTHROPIC_AUTH_TOKEN ：会单独发给你，类似格式： "cr**..."
 
 API 地址： ANTHROPIC_BASE_URL：https://ai.algae.fun/api 是本站的 API 服务地址，与主站地址相同
 
@@ -103,3 +104,21 @@ claude
 ```
 
 即可使用 Claude Code
+
+# 5. 常见问题解决
+
+## macOS 安全设置阻止运行
+
+如果系统阻止运行 Claude Code：
+
+- 打开"系统偏好设置" → "安全性与隐私"
+- 点击"仍要打开"或"允许"
+- 或者在 Terminal 中运行：sudo spctl --master-disable
+
+## Windows 下 PowerShell 执行策略错误
+
+如果遇到执行策略限制，运行：
+
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
