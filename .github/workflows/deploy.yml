@@ -48,11 +48,11 @@ jobs:
       - name: Build with VitePress
         run: npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
       - name: copy CNAME
-        run: cp docs/.vitepress/dist/CNAME .vitepress/dist/CNAME
+        run: cp CNAME .vitepress/dist/CNAME
       - name: copy favicon
-        run: cp docs/.vitepress/dist/favicon.ico .vitepress/dist/favicon.ico
+        run: cp .vitepress/public/favicon.ico .vitepress/dist/favicon.ico
       - name: copy logo
-        run: cp docs/.vitepress/dist/logo.svg .vitepress/dist/logo.svg
+        run: cp .vitepress/puclic/logo.svg .vitepress/dist/logo.svg
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
