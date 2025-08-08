@@ -4,12 +4,16 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "algae AI 模型转发拼车",
   description: "AI 转发",
-  //   head: [
-  //   // 自动处理 favicon.ico 文件，如果它在 public 目录下
-  //   ['link', { rel: 'icon',  type: 'image/svg', href: '/logo.svg' }],
-  // ],
+  head: [
+    // 自动处理 favicon.ico 文件，如果它在 public 目录下
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    vite: {
+    publicDir: '.', 
+  },
+  
     nav: [
       { text: "主页", link: "/" },
       { text: "帮助文档", link: "/docs" },
