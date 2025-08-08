@@ -4,6 +4,10 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "algae AI 模型转发拼车",
   description: "AI 转发",
+  //   head: [
+  //   // 自动处理 favicon.ico 文件，如果它在 public 目录下
+  //   ['link', { rel: 'icon',  type: 'image/svg', href: '/logo.svg' }],
+  // ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
