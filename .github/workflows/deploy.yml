@@ -52,7 +52,7 @@ jobs:
       - name: copy favicon
         run: cp .vitepress/public/favicon.ico .vitepress/dist/favicon.ico
       - name: copy logo
-        run: cp .vitepress/puclic/logo.svg .vitepress/dist/logo.svg
+        run: cp .vitepress/public/logo.svg .vitepress/dist/logo.svg
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
