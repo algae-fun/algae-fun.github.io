@@ -25,7 +25,14 @@ export default defineConfig({
         items: [
           { text: "Claude Code 拼车", link: "/guide/index" },
           { text: "Claude Code 安装", link: "/guide/install" },
+          { text: "关于我们", link: "/guide/about" },
           { text: "联系我们", link: "/contact" },
+        ],
+      },
+      {
+        text: "价格",
+        items: [
+          { text: "Claude Code价格", link: "/pricing/claude" },
         ],
       },
       {
