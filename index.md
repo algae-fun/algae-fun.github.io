@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "algae AI 拼车"
-  text: "AI 模型转发 拼车服务"  
-  tagline: cdn抓发加速，加拿大节点 
+  name: "algae 拼车"
+  text: "AI 模型请求转发 拼车服务"  
+  tagline: cdn转发加速，加拿大节点 
   actions:
     - theme: brand
       text: 帮助文档
